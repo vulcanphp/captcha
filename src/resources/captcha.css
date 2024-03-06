@@ -1,0 +1,62 @@
+.vulcan-captcha {
+    display: flex;
+    width: 100%;
+    max-width: 416px;
+    margin: auto;
+}
+
+.vulcan-captcha img {
+    width: 40%;
+    height: auto;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.vulcan-captcha button {
+    width: 12%;
+    height: auto;
+    border: none;
+    background: #3b82f6;
+    color: #fff;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vulcan-captcha input {
+    width: 43%;
+    height: auto;
+    margin-left: 5%;
+    padding: 10px 15px;
+    border: 1px solid #e2e8f0;
+    background: #f1f5f9;
+    color: #1e293b;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+vulcan-captcha input:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.vulcan-captcha button:hover {
+    background: #2563eb;
+}
+
+.vulcan-captcha button:focus, .vulcan-captcha button:active {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    color: #fff;
+    background: #2563eb;
+}
+
+.vulcan-captcha button svg {
+    width: 65%;
+    height: auto;
+}
