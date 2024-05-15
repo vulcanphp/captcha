@@ -2,7 +2,7 @@ function vulcanCaptcha(id, images)
 {
     let img = document.querySelector('#captcha-' + id + ' img'),
         button = document.querySelector('#captcha-' + id + ' button'),
-        input = document.querySelector('#captcha-' + id + ' input[type="text"]'),
+        input = document.querySelector('#captcha-' + id + ' input[required]'),
         serial =  document.querySelector('#captcha-' + id + ' input[type="hidden"]');
 
     button.addEventListener('click', function(){
